@@ -1,0 +1,38 @@
+{
+  "name": "my-family-album",
+  "version": "1.0.0",
+  "description": "This is my nice family album ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orgar/my-family-album.git"
+  },
+  "keywords": [
+    "family",
+    "socail",
+    "network"
+  ],
+  "author": "Or Garfunkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/orgar/my-family-album/issues"
+  },
+  "homepage": "https://github.com/orgar/my-family-album#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
